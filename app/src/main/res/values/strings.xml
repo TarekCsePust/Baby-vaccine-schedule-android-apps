@@ -1,0 +1,28 @@
+<resources>
+    <string name="app_name">Vaccine Detailas</string>
+    <string name="drawer_open">drawer open</string>
+    <string name="drawer_close">drawer close</string>
+    <string name="pref_file">PREF_FILE</string>
+    <string name="count">Count</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string-array name="vaccines">
+        <item>SELECT VACCINE</item>
+        <item>ENGERIX B</item>
+        <item>MENCEVAX ACWY</item>
+        <item>ROTARIX</item>
+        <item>SYNFLORIX</item>
+        <item>INFANRIX</item>
+        <item>HIBERIX</item>
+        <item>TRITANRIX</item>
+        <item>PRIORIX</item>
+        <item>HAVRIX</item>
+        <item>VARILRIX</item>
+        <item>CERVARIX</item>
+        <item>FLUARIX</item>
+    </string-array>
+    <string-array name="given_status">
+        <item>NO</item>
+        <item>YES</item>
+    </string-array>
+</resources>

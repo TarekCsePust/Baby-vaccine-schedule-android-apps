@@ -1,0 +1,39 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.hasantarek.vaccinedetailasandschedule.WomenVaccine">
+
+    <!-- TODO: Update blank fragment layout -->
+  <LinearLayout
+      android:layout_width="match_parent"
+      android:layout_height="match_parent"
+      android:orientation="vertical"
+      >
+      <Button
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:text="Tetanus Toxoid(TT)"
+          android:background="#8BC34A"
+          android:textSize="20dp"
+          android:textStyle="bold"
+          android:layout_marginTop="150dp"
+          />
+
+      <android.support.design.widget.CoordinatorLayout
+          android:layout_width="match_parent"
+          android:layout_height="match_parent"
+
+          >
+          <android.support.design.widget.FloatingActionButton
+              android:layout_width="wrap_content"
+              android:layout_height="wrap_content"
+              android:layout_gravity="bottom|end"
+              android:layout_margin="@dimen/fav_margin"
+              android:src="@drawable/add"
+              android:id="@+id/women_add"
+              />
+      </android.support.design.widget.CoordinatorLayout>
+  </LinearLayout>
+
+</FrameLayout>

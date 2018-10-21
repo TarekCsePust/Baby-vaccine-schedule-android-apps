@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#795548"
+    tools:context="com.example.hasantarek.vaccinedetailasandschedule.VaccineInfoList">
+
+    <include
+        android:id="@+id/toolbar_id"
+        layout="@layout/toolbar_layout"></include>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/text"
+        android:text="Vaccine Schedule"
+        android:textColor="#ffffff"
+        android:gravity="center"
+        android:textSize="30dp"
+        android:layout_marginTop="5dp"
+        android:layout_below="@+id/toolbar_id"
+        />
+     <ListView
+         android:layout_width="match_parent"
+         android:layout_height="wrap_content"
+         android:layout_below="@+id/text"
+         android:layout_marginTop="5dp"
+         android:id="@+id/vaccineinfo_list_id"
+         ></ListView>
+</RelativeLayout>

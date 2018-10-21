@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:icon="@drawable/home"
+        android:id="@+id/home_menu"
+        android:title="Home"
+        ></item>
+
+    <item
+        android:icon="@drawable/child1"
+        android:title="Child Vaccine"
+        android:id="@+id/child_menu"></item>
+    <item
+        android:id="@+id/women_menu"
+        android:icon="@drawable/women2"
+        android:title="Women Vaccine"></item>
+    <item
+        android:title="Other Vaccine"
+        android:icon="@drawable/othervaccine1"
+        android:id="@+id/other_menu"></item>
+
+</menu>

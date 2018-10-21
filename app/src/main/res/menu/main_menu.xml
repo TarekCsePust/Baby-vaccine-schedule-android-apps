@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/child_list_id"
+        android:title="Child list"></item>
+    <item
+        android:id="@+id/women_list_id"
+        android:title="Women list"></item>
+    <item
+        android:id="@+id/other_list_id"
+        android:title="Other list"></item>
+</menu>
